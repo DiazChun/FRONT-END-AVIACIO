@@ -1,0 +1,99 @@
+.container {
+    text-align: center;
+  }
+  
+  .table-container {
+    margin-bottom: 20px;
+  }
+  
+  .table-vuelos {
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .table-vuelos th,
+  .table-vuelos td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-vuelos th {
+    background-color: #f5f5f5;
+  }
+  
+  .table-vuelos td input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .table-vuelos td button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .table-vuelos td button:hover {
+    background-color: #0056b3;
+  }
+  
+  .formulario-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .formulario-container h2 {
+    text-align: center;
+  }
+  
+  .formulario {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .formulario-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario-btn {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .formulario-btn:hover {
+    background-color: #0056b3;
+  }
+  

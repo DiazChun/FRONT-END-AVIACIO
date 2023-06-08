@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #87ceeb; /* Color celeste */
+}
+
+.login-form {
+  background-color: #fff; /* Color blanco */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 400px; /* Ajusta el ancho del formulario según tus necesidades */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333; /* Color de texto */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333; /* Color de texto */
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Color del borde */
+  box-sizing: border-box; /* Añade esta propiedad */
+}
+
+button[type="submit"] {
+  background-color: #87ceeb; /* Color celeste */
+  color: #fff; /* Color de texto */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

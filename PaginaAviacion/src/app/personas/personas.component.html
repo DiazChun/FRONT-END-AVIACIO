@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="table-container">
+      <h2>Personas</h2>
+      <table class="table-personas">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Apellido</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Nacionalidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Apellido 1</td>
+            <td>1990-01-01</td>
+            <td>Nacionalidad 1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Apellido 2</td>
+            <td>1995-05-05</td>
+            <td>Nacionalidad 2</td>
+          </tr>
+          <!-- ... -->
+        </tbody>
+      </table>
+    </div>
+  
+    <div class="formulario-container">
+      <h2 class="formulario-titulo">Insertar Reservación</h2>
+      <form class="formulario">
+        <div class="form-group">
+          <label for="id" class="formulario-label">ID Reservación:</label>
+          <input type="text" id="id" name="id" placeholder="Ingrese el ID de la reservación" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="idPersona" class="formulario-label">ID Persona:</label>
+          <input type="text" id="idPersona" name="idPersona" placeholder="Ingrese el ID de la persona" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="descripcion" class="formulario-label">Descripción de la Reservación:</label>
+          <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese la descripción de la reservación" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="salida" class="formulario-label">Salida:</label>
+          <input type="text" id="salida" name="salida" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="destino" class="formulario-label">Destino:</label>
+          <input type="text" id="destino" name="destino" placeholder="Ingrese el destino" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="llegada" class="formulario-label">Llegada:</label>
+          <input type="text" id="llegada" name="llegada" class="formulario-input">
+        </div>
+        <button type="submit" class="formulario-btn">Insertar</button>
+      </form>
+    </div>
+  </div>
+  

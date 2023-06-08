@@ -1,0 +1,95 @@
+.container {
+    text-align: center;
+  }
+  
+  .table-container {
+    margin-bottom: 20px;
+  }
+  
+  .table-equipaje {
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .table-equipaje th,
+  .table-equipaje td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-equipaje th {
+    background-color: #f5f5f5;
+  }
+  
+  .table-equipaje td input[type="text"],
+  .table-equipaje td input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .table-equipaje td button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .table-equipaje td button:hover {
+    background-color: #0056b3;
+  }
+  
+  .formulario-container {
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .formulario-titulo {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .formulario-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .formulario-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario-btn {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .formulario-btn:hover {
+    background-color: #0056b3;
+  }
+  

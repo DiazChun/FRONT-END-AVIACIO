@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="table-container">
+      <h2>Vuelos</h2>
+      <table class="table-vuelos">
+        <thead>
+          <tr>
+            <th>ID Reservación</th>
+            <th>ID Persona</th>
+            <th>Número de Asiento</th>
+            <th>Hora de Abordaje</th>
+            <th>Descripción del Vuelo</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" value="1"></td>
+            <td><input type="text" value="1"></td>
+            <td><input type="text" value="A1"></td>
+            <td><input type="text" value="12:00 PM"></td>
+            <td><input type="text" value="Vuelo de prueba"></td>
+            <td>
+              <button>Editar</button>
+              <button>Eliminar</button>
+            </td>
+          </tr>
+          <!-- Agrega más filas si es necesario -->
+        </tbody>
+      </table>
+    </div>
+  
+    <div class="formulario-container">
+      <h2>Insertar Vuelo</h2>
+      <form class="formulario">
+        <div class="form-group">
+          <label for="idReservacion" class="formulario-label">ID Reservación:</label>
+          <input type="text" id="idReservacion" name="idReservacion" placeholder="Ingrese el ID de la reservación" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="idPersona" class="formulario-label">ID Persona:</label>
+          <input type="text" id="idPersona" name="idPersona" placeholder="Ingrese el ID de la persona" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="numeroAsiento" class="formulario-label">Número de Asiento:</label>
+          <input type="text" id="numeroAsiento" name="numeroAsiento" placeholder="Ingrese el número de asiento" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="horaAbordaje" class="formulario-label">Hora de Abordaje:</label>
+          <input type="text" id="horaAbordaje" name="horaAbordaje" placeholder="Ingrese la hora de abordaje" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="descripcionVuelo" class="formulario-label">Descripción del Vuelo:</label>
+          <input type="text" id="descripcionVuelo" name="descripcionVuelo" placeholder="Ingrese la descripción del vuelo" class="formulario-input">
+        </div>
+        <button type="submit" class="formulario-btn">Insertar</button>
+      </form>
+    </div>
+  </div>
+  

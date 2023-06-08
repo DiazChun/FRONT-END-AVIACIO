@@ -1,0 +1,36 @@
+<!-- vuelo.component.html -->
+<div class="vuelo-container">
+    <h2>Vuelos</h2>
+  
+    <button class="btn-asignar" (click)="asignarVuelos()">Asignar vuelos</button>
+  
+    <table class="tabla-vuelos">
+      <thead>
+        <tr>
+          <th>ID Reservación</th>
+          <th>ID Persona</th>
+          <th>Descripción Reservación</th>
+          <th>Salida</th>
+          <th>Destino</th>
+          <th>Llegada</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let reservacion of reservaciones">
+          <td><input type="text" [(ngModel)]="reservacion.id"></td>
+          <td><input type="text" [(ngModel)]="reservacion.idPersona"></td>
+          <td><input type="text" [(ngModel)]="reservacion.descripcionReservacion"></td>
+          <td><input type="text" [(ngModel)]="reservacion.salida"></td>
+          <td><input type="text" [(ngModel)]="reservacion.destino"></td>
+          <td><input type="text" [(ngModel)]="reservacion.llegada"></td>
+          <td>
+            <!-- Botones para editar o eliminar la reservación -->
+            <button class="btn-editar" (click)="editarReservacion(reservacion)">Editar</button>
+            <button class="btn-eliminar" (click)="eliminarReservacion(reservacion)">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

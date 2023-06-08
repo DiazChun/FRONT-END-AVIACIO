@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="table-container">
+      <h2>Equipaje</h2>
+      <table class="table-equipaje">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>ID Persona</th>
+            <th>ID Vuelo</th>
+            <th>Descripción</th>
+            <th>Validación</th>
+            <th>Revisión</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" value="1"></td>
+            <td><input type="text" value="1"></td>
+            <td><input type="text" value="1"></td>
+            <td><input type="text" value="Descripción de prueba"></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+            <td>
+              <button>Editar</button>
+              <button>Eliminar</button>
+            </td>
+          </tr>
+          <!-- Agrega más filas si es necesario -->
+        </tbody>
+      </table>
+    </div>
+  
+    <div class="formulario-container">
+      <h2 class="formulario-titulo">Insertar Equipaje</h2>
+  
+      <form class="formulario">
+        <div class="form-group">
+          <label for="id" class="formulario-label">ID:</label>
+          <input type="text" id="id" name="id" placeholder="Ingrese el ID" required class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="idPersona" class="formulario-label">ID Persona:</label>
+          <input type="text" id="idPersona" name="idPersona" placeholder="Ingrese el ID de la persona" required class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="idVuelo" class="formulario-label">ID Vuelo:</label>
+          <input type="text" id="idVuelo" name="idVuelo" placeholder="Ingrese el ID del vuelo" required class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="descripcion" class="formulario-label">Descripción:</label>
+          <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese la descripción" required class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="validacion" class="formulario-label">Validación:</label>
+          <input type="checkbox" id="validacion" name="validacion" class="formulario-input">
+        </div>
+        <div class="form-group">
+          <label for="revision" class="formulario-label">Revisión:</label>
+          <input type="checkbox" id="revision" name="revision" class="formulario-input">
+        </div>
+        <button type="submit" class="formulario-btn">Insertar</button>
+      </form>
+    </div>
+  </div>
+  
